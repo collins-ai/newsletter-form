@@ -1,6 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 680px;
+    display: flex;
+    padding: 24px;
+    border-radius: 20px;
+    margin-bottom: 48px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+        width: 375px;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+.sec1 {
+    width: 280px;
+    margin-right: 48px;
+    margin-left: 24px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    @media screen and (max-width: 768px) {
+        width: 320px;
+        margin: 52px 24px;
+    }
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 36px;
+    }
+}
+p {
+    margin-bottom: 18px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 24px;
+    }
+}
+ul {
+    list-style: none;
+    margin-bottom: 24px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 36px;
+    }
+}
+li {
+    margin-bottom: 6px;
+}
+ul img {
+    width: 12px;
+    @media screen and (max-width: 768px) {
+        width: 16px;
+    }
+}
+span {
+    margin-left: 12px;
+    display: inline-block;
+    @media screen and (max-width: 768px) {
+        display: inline;
+    }
+}
+.error {
+    color: hsl(4, 100%, 67%);
+    width: 180px;
+    text-align: end;
+    display: none;
+    @media screen and (max-width: 768px) {
+        width: 200px;
+    }
+}
+label {
+    margin-bottom: 6px;
+    font-weight: 700;
+    display: inline-block;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 12px;
+    }
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border: 1px solid hsl(231, 7%, 60%);
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 24px;
+    }
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+button:hover {
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+.sec2 img {
+    width: 280px;
+    @media screen and (max-width: 768px) {
+        width: 375px;
+    }
+}
+.img1 {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.img2 {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(0, 0%, 100%);
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
