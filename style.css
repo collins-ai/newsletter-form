@@ -28,7 +28,7 @@ main {
     margin-bottom: 48px;
     @media screen and (max-width: 768px) {
         flex-direction: column-reverse;
-        width: 375px;
+        width: 355px;
         padding: 0;
         border-radius: 0;
     }
@@ -41,7 +41,7 @@ main {
     margin-bottom: 56px;
     @media screen and (max-width: 768px) {
         width: 320px;
-        margin: 52px 24px;
+        margin: 52px 16px;
     }
 }
 h1 {
@@ -125,7 +125,7 @@ button:hover {
 .sec2 img {
     width: 280px;
     @media screen and (max-width: 768px) {
-        width: 375px;
+        width: 355px;
     }
 }
 .img1 {
