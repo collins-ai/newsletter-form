@@ -1,7 +1,6 @@
 const form = document.getElementById(`form`)
 const email = document.getElementById(`email`)
 const errMessage = document.getElementById(`errmessage`)
-const validEmail = document.getElementById(`validemail`)
 const pattern = /^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/
 
 
@@ -13,12 +12,5 @@ form.addEventListener(`submit`, (e) => {
         email.style.outlineColor = `red`
         email.style.backgroundColor = `pink`
         email.style.color = `red`
-    }else {
-        function getEmail(parameter) {
-            const findEmail = new URLSearchParams(location.search)
-            return findEmail.get(parameter)
-        }
-        const emailValue = getEmail(`email`)
-        console.log(emailValue)
     }
 })

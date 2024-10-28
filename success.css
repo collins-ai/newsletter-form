@@ -46,6 +46,9 @@ p {
         margin-bottom: 50%;
     }
 }
+.valid {
+    font-weight: 700;
+}
 a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
